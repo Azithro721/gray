@@ -434,7 +434,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/hopeless_cloud'),
+            InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/+s7-Q8-2KsVJjOTg1')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
